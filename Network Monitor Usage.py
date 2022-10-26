@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import psutil
 import time
 
@@ -32,10 +26,3 @@ while True:
           f", Download Speed: {get_size(ds / UPDATE_DELAY)}/s  ", end= "\r")
     
     bytes_sent, bytse_recv = io_2.bytes_sent, io_2.bytes_recv
-
-
-# In[ ]:
-
-
-_
-
